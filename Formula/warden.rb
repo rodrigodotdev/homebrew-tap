@@ -12,22 +12,22 @@ class Warden < Formula
   on_macos do
     on_arm do
       url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ab1b6859212f59d5e50ea993a28837a489245a5ef00a2eeb0d14d43c01db4fdf"
+      sha256 "0c0f90f87509cb1c12af5edf2962167890e03a4fe151e01c7fa556a682942c62"
     end
     on_intel do
       url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c58cfbe101ea817cdf7a74e45677b7327731d671ccda90876fa4f250b9eb27f7"
+      sha256 "2bfabd046add252733f8ef5460490f2124843f496528afd9133e202d8c1f35b1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "91e08408c078e0685a8d7a54b8a930855d295d4d4ab8f5a6d24b62d643b49200"
+      sha256 "2566e4a75eecd3d6450ffc6f9b9ded17e778b3ecec08a7f2fab91b469b8ba225"
     end
     on_intel do
       url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "31b657ee185158f6b44b389289c5045cfc6d4e3bc8e7cda3b2213ffb235dd8ff"
+      sha256 "37575889c2ec8801023e63a5e7ca2e6534a08a59b7280c9a6c9aac5a3c737183"
     end
   end
 
