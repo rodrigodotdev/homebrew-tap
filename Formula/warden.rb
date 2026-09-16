@@ -6,28 +6,28 @@
 class Warden < Formula
   desc "Safe, read-only MCP gateway to explore MySQL and PostgreSQL"
   homepage "https://github.com/rodrigodotdev/warden"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "37bc3d9a2d698065436baf723989ff1de17eab41c46eaa6960ee9940a7a797ef"
+      url "https://github.com/rodrigodotdev/warden/releases/download/v0.3.0/warden-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4e7fcbf8d509778835ba950f7e0c9e1f33cdabe78042bab41d63031a0a597e7c"
     end
     on_intel do
-      url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6cd51f61ecc42e83b8caf90a51eed03041e344bd5e5f290781ed77f853a61602"
+      url "https://github.com/rodrigodotdev/warden/releases/download/v0.3.0/warden-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "22cb51a1e597c4c1143737f2173f6ac3d9b5154b011395c88556fc0d499008d2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7e5f5996bd1d2fe41d79aa744a3dad3800ef27f155b5a46568b5c9c68cd1ed42"
+      url "https://github.com/rodrigodotdev/warden/releases/download/v0.3.0/warden-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "43d2f59a924a7d93f544ff4720f8b7daa7a5ce41061ba138fea538a0f6320fe1"
     end
     on_intel do
-      url "https://github.com/rodrigodotdev/warden/releases/download/v0.2.0/warden-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d27a889607c32603b64540471e910e14d58ef2ab2b98c836f78c13a176ecf24d"
+      url "https://github.com/rodrigodotdev/warden/releases/download/v0.3.0/warden-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "473c90e788514bd6c924c22fda29f65766b03aa967ea4e5279c53357e65b03df"
     end
   end
 
